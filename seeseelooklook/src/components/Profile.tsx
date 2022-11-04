@@ -1,11 +1,4 @@
-type personDetail = {
-    student: {
-        fname: string,
-        lname: string,
-        age: number,
-        gender: string
-    }
-}
+import { personDetail } from "./types/Profile.type";
 const Person = (props: personDetail) => {
     return <>
         <h1>Profile</h1>

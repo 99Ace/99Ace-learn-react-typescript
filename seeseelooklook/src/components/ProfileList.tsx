@@ -1,10 +1,6 @@
+import {Student} from './types/Profile.type'
 type personListProps = {
-    students: {
-        fname: string,
-        lname: string,
-        age: number,
-        gender: string
-    }[]
+    students: Student[]
 }
 const PersonList = (props: personListProps) => {
     return <div>
